@@ -29,7 +29,8 @@ Will not work without a `config.js` file. You can run it on a local testnet like
 module.exports = {
   'ropsten': {
     'privateKey': '0xe2e5b850dd3974c6d296ccd69556fc2dc57484206b3411e5e3de1fc54f5afcf8',
-    'rpcOrigin': 'http://127.0.0.1:8545'
+    'rpcOrigin': 'http://127.0.0.1:8545',
+    'chainId': 123,
   }
 }
 ```
