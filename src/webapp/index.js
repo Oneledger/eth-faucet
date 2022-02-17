@@ -158,7 +158,7 @@ function renderApp() {
                 h('div.panel-body', [
                     h('div', 'address: ' + state.faucetAddress),
                     h('div', 'balance: ' + formatBalance(state.faucetBalance)),
-                    h('button.btn.btn-success', `request 1 ${coin} from faucet`, {
+                    h('button.btn.btn-success', `request 10 ${coin} from faucet`, {
                         style: {
                             margin: '4px'
                         },

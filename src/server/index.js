@@ -24,7 +24,7 @@ const appPath = path.join(__dirname, '../../', 'build')
 
 const min = 60 * 1000
 const ether = 1e18
-const faucetAmountWei = (1 * ether)
+const faucetAmountWei = (10 * ether)
 const EtherBN = new BN('1000000000000000000', 10)
 const MAX_BALANCE = EtherBN.mul(new BN('4', 10))
 const AUTO_RESTART_INTERVAL = 60 * min
